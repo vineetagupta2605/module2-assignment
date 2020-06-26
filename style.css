@@ -1,0 +1,110 @@
+
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+.box
+{
+  background-color: grey;
+  padding:10px;
+  margin:10px;
+  height: 200px;
+  border: 3px black;
+  float: left;
+  margin-right: 20px;
+  border-style: solid;
+  position: relative;
+}
+
+
+.title{
+	background-color: white;
+	position: absolute;
+	top:0px;
+	right:0px;
+	border: 2px black;
+	border-style: solid;
+	font-size:2em;
+}
+
+p{
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+
+
+@media (min-width: 992px){
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+}
+  
+  .col-lg-1 {width:30%;
+   position:relative;
+   margin-right:1.5% ;
+   margin-left:1.5%;
+   }
+  
+  .col-lg-2 {width:30%;
+   position:relative;
+   margin-left:1.5%;
+   }
+  
+  .col-lg-3 {width:30%;
+   position:relative;
+   margin-left:1.5%;
+   }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+
+    }
+  .col-md-1 {width: 40%;
+            position:relative;
+            margin-right:4% ;
+            margin-left:8%;
+            height: 20% }
+ 
+  .col-md-2 { width: 40%;
+            position:relative;
+            margin-right:8%;
+              height: 20%; 
+            }
+   
+   .col-md-3 {width: 84%;
+            position:relative;
+            right:8%;
+            left:8%}
+
+}
+  
+
+
+@media only screen and (max-width: 767px) {
+	.col-1, .col-2,.col-3{
+		float:left;
+	}
+	.col-1 {width: 90%;
+		margin-left: 5%;
+		margin-right:5%;}
+   
+   .col-2 {width: 90%;
+   margin-left: 5%;
+		margin-right:5%;}
+   
+   .col-3 {width: 90%;
+   margin-left: 5%;
+		margin-right:5%;}
+}
+
+
+
+
+
+
